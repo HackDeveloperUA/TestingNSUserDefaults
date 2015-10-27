@@ -10,6 +10,18 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *loginLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *passwordLabel;
+
+
+@property (weak, nonatomic) IBOutlet UITextField *loginTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+
+
+- (IBAction)readUserButton:(id)sender;
+- (IBAction)writeUserButton:(id)sender;
+
 
 @end
 

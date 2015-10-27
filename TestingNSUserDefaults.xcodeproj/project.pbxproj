@@ -13,6 +13,7 @@
 		0ADEC9921BDF9EA6000CF288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEC9901BDF9EA6000CF288 /* Main.storyboard */; };
 		0ADEC9941BDF9EA6000CF288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEC9931BDF9EA6000CF288 /* Assets.xcassets */; };
 		0ADEC9971BDF9EA6000CF288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEC9951BDF9EA6000CF288 /* LaunchScreen.storyboard */; };
+		0ADEC9A01BDF9EBF000CF288 /* ASUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEC99F1BDF9EBF000CF288 /* ASUser.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0ADEC9931BDF9EA6000CF288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ADEC9961BDF9EA6000CF288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ADEC9981BDF9EA6000CF288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADEC99E1BDF9EBF000CF288 /* ASUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUser.h; sourceTree = "<group>"; };
+		0ADEC99F1BDF9EBF000CF288 /* ASUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				0ADEC98B1BDF9EA6000CF288 /* AppDelegate.m */,
 				0ADEC98D1BDF9EA6000CF288 /* ViewController.h */,
 				0ADEC98E1BDF9EA6000CF288 /* ViewController.m */,
+				0ADEC9A11BDF9EC3000CF288 /* Model */,
 				0ADEC9901BDF9EA6000CF288 /* Main.storyboard */,
 				0ADEC9931BDF9EA6000CF288 /* Assets.xcassets */,
 				0ADEC9951BDF9EA6000CF288 /* LaunchScreen.storyboard */,
@@ -77,6 +81,15 @@
 				0ADEC9881BDF9EA6000CF288 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ADEC9A11BDF9EC3000CF288 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0ADEC99E1BDF9EBF000CF288 /* ASUser.h */,
+				0ADEC99F1BDF9EBF000CF288 /* ASUser.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ADEC98F1BDF9EA6000CF288 /* ViewController.m in Sources */,
+				0ADEC9A01BDF9EBF000CF288 /* ASUser.m in Sources */,
 				0ADEC98C1BDF9EA6000CF288 /* AppDelegate.m in Sources */,
 				0ADEC9891BDF9EA6000CF288 /* main.m in Sources */,
 			);
